@@ -1,0 +1,36 @@
+.recommendedVideo{
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+.recommendedVideo>h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.recommendedVideo__videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* button */
+.recommendedVideo__button button{
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    border-radius: 99px;
+    text-transform: inherit;
+    color: #5f6368;
+    font-weight: 500;
+    font-size: medium;
+
+}
+.recommendedVideo__button button:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(top, #5f6368, #5f6358);
+    background-color:#5f6368;
+    border: 1px solid #c6c6c6;
+    color:white;
+}

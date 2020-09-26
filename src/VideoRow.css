@@ -1,0 +1,39 @@
+.videoRow{
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 900px;
+    /* recommended uses 700px */
+}
+.videoRow >img{
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+    
+}
+.videoRow__text{
+    margin-left: 14px;
+}
+.videoRow__des{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #606060;
+}
+.videoRow__headline{
+
+}
+.videoRow__cName{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.videoRow__avatar{
+    height: 20px !important;
+    width: 20px !important;
+}
+.videoRow__subs{
+    background-color: lightgray;
+}
+.videoRow__subsNumer{
+    font-weight: bolder;
+    color: rgb(84, 157, 211);
+}

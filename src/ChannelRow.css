@@ -1,0 +1,45 @@
+.channelRow{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+.channelRow__text{
+    display: flex;
+    flex-direction: column;
+}
+.channelRow__verifiedIcons{
+    height: 12px !important;
+    width: 12px !important;
+    padding: 5px;  
+}
+.channelRow__text>p{
+    color: gray;
+    font-size: small !important;
+}
+.channelRow__logo{
+    height: 120px !important;
+    width: 120px !important;
+    padding: 15px 90px;
+}
+.channelRow__text>h4{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.channelRow__button{
+    /* width: 40%; */
+    /* margin-right: -250px !important; */
+    background-color: #504D4C !important;
+}
+.channel__Info{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    /* padding: 20px 30px; */
+    margin-right: -200px;
+    /* min-width: 40%; */
+}
+.channelRow__Notification{
+    margin-left: 10px !important;
+}
